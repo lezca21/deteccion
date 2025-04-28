@@ -13,21 +13,26 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# 🌸 Un poquito de CSS para hacerlo aún más tierno
+# 🌸 Un poquito de CSS para hacerlo aún más tierno y oscuro
 st.markdown("""
     <style>
     body {
-        background-color: #ffe4e1;
+        background-color: #121212; /* Fondo oscuro */
     }
     .stApp {
-        background: linear-gradient(to bottom, #ffe4e1, #ffffff);
+        background: #121212; /* Fondo del contenido */
+        color: #f8f8f2; /* Color de texto general */
     }
     .title {
-        color: #ff69b4;
+        color: #ff69b4; /* Título en rosita */
         font-family: 'Comic Sans MS', cursive, sans-serif;
     }
     .sidebar .sidebar-content {
-        background: #ffd1dc;
+        background: #2c2c2c; /* Sidebar oscuro */
+    }
+    .css-1d391kg, .css-1v3fvcr {
+        background-color: #2c2c2c;
+        color: #f8f8f2;
     }
     </style>
     """, unsafe_allow_html=True)
